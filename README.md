@@ -292,6 +292,12 @@ This project is for educational purposes. Please respect the Terms of Service of
 
 ## Troubleshooting
 
+**Issue**: 403 Forbidden errors
+- This has been fixed with enhanced HTTP headers that mimic real browser requests
+- If you still encounter 403 errors, websites may be using more advanced bot detection
+- See `FIX_DOCUMENTATION.md` for details and additional mitigation strategies
+- Test the fix online with: `python test_online.py`
+
 **Issue**: Products not found
 - Check if website selectors are still valid (websites update their layouts)
 - Verify the website is accessible
